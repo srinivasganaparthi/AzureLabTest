@@ -33,7 +33,7 @@ namespace AzureSample.Services
                     Course _course = new Course()
                     {
                         CourseID = _reader.GetInt32(0),
-                        //CourseName = _reader.GetString(1),
+                        CourseName = _reader.GetString(1),
                         Rating = _reader.GetDecimal(2)
                     };
 
